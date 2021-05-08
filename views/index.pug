@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Parag Dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+           div#logo
+              img(src='/static/img/a6.png')
+              | PDA
+           li #[a(href="/") Home]
+           li #[a(href="/") About]
+           li #[a(href="/") Services]
+           li #[a(href="/") Class info.]
+           li #[a(href="/") Contact us]
+
+    section#introsection
+        div  Welcome to Parag Dance Academy
+        div.small  Eat sleep Dance repeat
+    section#missionsection
+        h2 Our mission 
+        div.card
+           h3 Dance Perfection
+           div.card-box
+              div.card-img
+                  img(src="/static/img/a1.png")
+              div.card-content 
+                p This is Best dance academy of the India
+        div.card
+           h3 Dance the way u like
+           div.card-box
+              div.card-img
+                  img(src="/static/img/a2.png")
+              div.card-content 
+                p This is Best dance academy of the India
+        div.card
+           h3 Expert teaching
+           div.card-box
+              div.card-img
+                  img(src="/static/img/a6.png")
+              div.card-content 
+                p This is Best dance academy of the India
+    section#sponsersection
+        h2 Our Sponser
+        div#sponser
+           img(src="/static/img/logo1.jpg", alt="sponser image", Class="spImage")
+           img(src="/static/img/logo2.png", alt="sponser image", Class="spImage")
+           img(src="/static/img/logo3.png", alt="sponser image", Class="spImage")
+           img(src="/static/img/logo4.png", alt="sponser image", Class="spImage")
+           img(src="/static/img/logo5.jpg", alt="sponser image", Class="spImage")
+    footer#footer
+        | Copyright &copy paragsutare11@gmail.con | All Right Reserved 
+
+    script
+      include ../static/index.js
